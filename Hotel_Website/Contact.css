@@ -1,0 +1,61 @@
+.container-fluid {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.container {
+	padding-right: 0px;
+    padding-left: 0px;
+}
+#.tab-web span span a {
+	color: #a4db9a;
+	text-decoration: none;
+}
+.title-page {
+	font-size: 30px;
+	text-align: center;
+	color: #a4db9a;
+	text-decoration: none;
+}
+.line {	
+	width: 40%;
+	height: 0.7%;
+	background-color: #a4db9a;
+}
+.form-group {
+	width: 100%;
+}
+.form-control {
+	height: 100%;
+}
+.form-book input[type="text"] , input[type="phone"] ,
+input[type="date"] , input[type="number"] {
+	margin-bottom: 5%;
+}
+.footer_bottom_holder {
+    background-color: #000000;
+    color: rgb(240, 240, 240);
+	padding-top: 3%;
+    padding-bottom: auto;
+    padding-left: auto;
+	width: 100%;
+}
+.bg-color{
+    background: rgb(240, 240, 240);
+}
+.nav-link{
+    font-weight: bold;
+    color: rgb(136, 197, 133);
+    font-size: 20px;
+}
+.btn-group{
+    color: rgb(136, 197, 133);
+}
+.navbar-toggler i{
+    color: rgb(136, 197, 133);
+}
+
+.navbar-nav a:hover{
+    color: rgb(102, 175, 106);
+}
