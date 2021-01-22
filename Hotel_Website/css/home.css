@@ -1,0 +1,505 @@
+main {
+	margin: 30px 0px 0px 0px;
+	padding: 0;
+}
+
+
+
+img .slide {
+	height: 800px; 
+}
+
+.item {
+	margin: 10px 0px;
+	padding: 5px;
+}
+
+#event {
+	margin-bottom: 15px;
+}
+/*2====our-event===*/
+.cantainer-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.our-event-t-wrapper {
+  position: relative;
+}
+
+.our-event-t-wrapper .media {
+  margin-bottom: 2.5em;
+}
+
+.our-event-t-wrapper .media-last {
+  margin-bottom: 0;
+}
+
+.our-event-t-wrapper .media-left {
+  position: relative;
+  padding-right: 2em;
+}
+
+.our-event-t-wrapper .media-body {
+  position: relative;
+}
+
+.our-event-t-wrapper .media-body h2 {
+  color: #1c1c1c;
+  margin: 0 0 0.3em;
+  padding: 0;
+  font: 700 1.0715em/1em "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+.our-event-t-wrapper .media-body p {
+  color: #a0a0a0;
+  font: 400 1.0715em/1.6em "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.our-event-t-wrapper .date-box {
+  position: relative;
+  width: 85px;
+  height: 85px;
+  border: 5px solid #85ab00;
+  background: #91b41a;
+  text-align: center;
+}
+
+.our-event-t-wrapper .date-box .date-inner {
+  display: table;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.our-event-t-wrapper .date-box .date-inner .date-c-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.our-event-t-wrapper .date-box .date-inner .date-c-inner p {
+  color: #fff;
+  font: 2.15em/1em "Playball", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.our-event-t-wrapper .date-box .date-inner .date-c-inner p span {
+  color: #fff;
+  font: 0.7em/1em "Playball", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+
+/*===end our event===*/
+/*=================
+  7.Offers
+===================*/
+.offer-main {
+  position: relative;
+  overflow: hidden;
+}
+
+.offer-main p {
+  color: #898989;
+  margin: 0;
+  padding: 0;
+  font: 400 1.0715em/1.8em "Open Sans", sans-serif;
+}
+
+.offer-deal-dark {
+  position: relative;
+  overflow: hidden;
+  background: #f6f6f8;
+}
+
+.offer-content h2 {
+  color: #0e1322;
+  font: 2.43em/1em "Playball", sans-serif;
+  margin: 0 0 0.6em;
+  padding: 0;
+  position: relative;
+}
+
+.offer-content h2:after {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 60px;
+  height: 2px;
+  display: inline-block;
+  background: #a7cc38;
+  margin: 0 0 0 12px;
+}
+
+.offer-content p {
+  color: #898989;
+  margin: 0 0 3em;
+  padding: 0;
+  font: 400 1.0715em/1.8em "Open Sans", sans-serif;
+}
+
+.offer-content {
+  position: relative;
+  padding-left: 8em;
+}
+
+.offer-b-main {
+  float: left;
+}
+
+.offer-b-but {
+  float: left;
+}
+
+.offer-b-but .res-btn {
+  background: #85ab00;
+  padding: 0.5em 1.7em;
+  color: #fff;
+}
+
+.offer-b-but .res-btn:hover {
+  background: #ffb606;
+  color: #fff;
+}
+
+.offer-b-price {
+  float: left;
+  margin-left: 2em;
+}
+
+.offer-b-price p {
+  color: #242424;
+  font: 2em/0.9em "Playball", sans-serif;
+  padding: 0 0 0;
+  margin: 0;
+}
+
+.offer-b-price p span {
+  display: block;
+  font: 400 0.53em/1.3em "Open Sans", sans-serif;
+  font-style: italic;
+  color: #888;
+}
+/*3===Navbar====*/
+.bg-color{
+    background: rgb(240, 240, 240);
+}
+.nav-link{
+    font-weight: bold;
+    color: rgb(136, 197, 133);
+    font-size: 20px;
+}
+.btn-group{
+    color: rgb(136, 197, 133);
+}
+.navbar-toggler i{
+    color: rgb(136, 197, 133);
+}
+
+.navbar-nav a:hover{
+    color: rgb(102, 175, 106);
+}
+/*===End of Navbar===*/
+/*====carousel=====*/
+.slidershow {
+	width:100%;
+	height:800px;
+	overflow:hidden;
+	position:absolute;
+	top:47%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	z-index:-999;
+}
+.navigation{
+	position:absolute;
+	bottom:10px;
+	left:50%;
+	transform:translateX(50%);
+	display:flex;
+}
+.bar{
+	width:20px;
+	height:20px;
+	border:2px solid #fff;
+	border-radius:30px;
+	margin:100px;
+	cursor:pointer;
+}
+.bar {
+	background:#fff;
+	transition:0.6s;
+	border: 2px solid red;
+}
+	input[name="bottom"]{
+	position:absolute;
+	visibility:hidden;
+	}
+.slides {
+	width:500%;
+	height:100%;
+	display:flex;
+}
+.slide {
+	width:100%;
+	transition:0.6s;
+}
+.slide img{
+	width:100%;
+	height:100%;
+}
+#bottom_1:checked .s1{
+	margin-left:0;
+}
+#bottom_1:checked .s1{
+	margin-left:20%;
+}
+#bottom_1:checked .s1{
+	margin-left:40%;
+}
+/*=====end======*/
+/*===footer==*/
+.footer{
+    background-color: rgb(68, 80, 73);
+    color: rgb(240, 240, 240);
+}
+.footer1{
+    background-color: rgb(149, 189, 166);
+}
+
+/* ==============================
+  5.Get in Touch & Drop a Message Home Two Styles
+============================== */
+.get-touch-two {
+  position: relative;
+}
+
+.get-touch-wrapper {
+  position: relative;
+}
+
+.get-touch-wrapper .touch-img {
+  float: left;
+  margin-right: 3em;
+}
+
+.get-touch-wrapper .touch-txt {
+  float: left;
+}
+
+.get-touch-wrapper .touch-txt h3 {
+  color: #323232;
+  font: 1.72em/1em "Playball", sans-serif;
+  margin: 0 0 1em;
+  padding: 0;
+}
+
+.get-touch-wrapper .touch-txt h3 span {
+  color: #7e7e7e;
+  display: block;
+  font: 400 0.62em/1.6em "Open Sans", sans-serif;
+}
+
+.get-touch-wrapper .touch-txt p {
+  color: #7e7e7e;
+  margin: 0 0 1em;
+  padding: 0;
+  font: 400 1.0715em/1.6em "Open Sans", sans-serif;
+}
+
+.get-touch-wrapper .touch-txt p a {
+  color: #7e7e7e;
+}
+
+.sec-header-touch {
+  position: relative;
+}
+
+.sec-header-touch h2 {
+  color: #0e1322;
+  font: 2.43em/1em "Playball", sans-serif;
+  margin: 0 0 0.7em;
+  padding: 0;
+}
+
+.sec-header-touch h2:after {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 60px;
+  height: 2px;
+  display: inline-block;
+  background: #a7cc38;
+  margin: 0 0 0 12px;
+}
+
+.home-two-msgwrapper {
+  position: relative;
+  padding-left: 7em;
+}
+
+.drop-wrapper {
+  position: relative;
+}
+
+.drop-wrapper form .form-control {
+  margin-bottom: 20px;
+  border-radius: 0;
+  font: 400 1.0715em/1.5em 'Open Sans', serif;
+  color: #959595;
+  padding: 11px 20px;
+  border: 1px solid #e1e1e1;
+  height: auto;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+/* ==============================
+  6.Rooms And Suits Home Two Styles
+============================== */
+.room-suite-htwo .item:hover .ro-txt {
+  background: transparent;
+  -webkit-transition: all 300ms linear 0s;
+  transition: all 300ms linear 0s;
+}
+
+.room-suite-htwo .item .ro-txt h2 {
+  color: #242424;
+  font: 1.86em/1em "Playball", sans-serif;
+  padding: 0;
+  margin: 1em 0 0.7em;
+  position: relative;
+}
+
+.room-suite-htwo .item .ro-txt h2:after {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 35px;
+  height: 2px;
+  display: inline-block;
+  background: #a7cc38;
+  margin: 0 0 0 12px;
+}
+
+.room-suite-htwo .item .ro-txt p {
+  color: #898989;
+  margin: 0 0 1.8em;
+  font: 400 1.0715em/1.5em "Open Sans", sans-serif;
+}
+
+.room-suite-htwo .item .ro-img {
+  border-bottom: 0px solid transparent;
+}
+
+.room-suite-htwo .item .ro-txt {
+  background: transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  padding: 0;
+}
+
+.room-suite-htwo .ro-text-two {
+  position: relative;
+}
+
+.room-suite-htwo .ro-text-two .left-p-two {
+  position: relative;
+}
+
+.room-suite-htwo .ro-text-two .left-p-two .res-btn {
+  background: #85ab00;
+  padding: 0.5em 2em;
+}
+
+.room-suite-htwo .ro-text-two .left-p-two .res-btn:hover {
+  background: #1a1a1c;
+}
+
+.room-suite-htwo .ro-text-two .right-p-two p {
+  color: #242424;
+  font: 2em/1em "Playball", sans-serif;
+  padding: 0 0 0;
+  margin: 0;
+}
+
+.room-suite-htwo .ro-text-two .right-p-two p span {
+  display: block;
+  font: 400 0.5em/1.3em "Open Sans", sans-serif;
+  font-style: italic;
+  color: #888;
+}
+
+.roomsuite-slider-two .owl-nav {
+  position: absolute;
+  right: 0;
+  top: -82px;
+}
+
+.roomsuite-slider-two.owl-theme .owl-controls .owl-nav [class*="owl-"] {
+  background: transparent;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.roomsuite-slider-two.owl-carousel .owl-controls .owl-nav .owl-prev, .roomsuite-slider-two.owl-carousel .owl-controls .owl-nav .owl-next {
+  background: #a9c449;
+  width: 33px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 33px;
+  color: #fff;
+  float: left;
+  -webkit-transition: all 300ms linear 0s;
+  transition: all 300ms linear 0s;
+}		
+.col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    background-color: #343a40;
+    color: #797979;
+}
+.text-center{
+	text-align: center !important	;
+}
+
+.roomsuite-slider-two.owl-carousel .owl-controls .owl-nav .owl-prev {
+  margin-right: 5px;
+}
+
+/* ==============================
+  8. Banner styles
+============================== */
+.home-slider .carousel-inner > .item > img {
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.home-slider .carousel-caption:before {
+  width: 30%;
+  height: 1px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.home-slider .carousel-caption {
+  left: 0;
+  text-align: left;
+  text-transform: uppercase;
+  top: 40%;
+  letter-spacing: 6px;
+  text-shadow: none;
+  z-index: 1;
+  font-size: 1.15em;
+  font-weight: 400;
+}
+

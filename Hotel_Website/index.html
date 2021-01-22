@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>K34DL Midterm Project Hotel Web</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="home.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<!-- header -->
+    <nav class="navbar navbar-expand-md navbar-light bg-dark">
+        <div class="container">
+            <a class="navbar-branch" href="#">
+                <img src="img\logo.png" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-white " href="#">Rooms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-white" href="#">Dinning</a>
+                    </li>
+                    <li>
+                        <a class="nav-link  text-white" href="#">Offers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-white" href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="form-inline" action="/action_page.php" style="margin: 10px 0px 0px 60px">
+                	<div class="input-group mb-3">
+					    <input type="text" class="form-control" placeholder="Search..." name="search">
+					    <div class="input-group-append">
+					      <button class="btn btn-success" type="submit"><i class="fa fa-search"></i></button>  
+				     	</div>
+					  </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- banner -->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+	  	<ul class="carousel-indicators">
+		    <li data-target="#demo" data-slide-to="0" class="active"></li>
+		    <li data-target="#demo" data-slide-to="1"></li>
+		    <li data-target="#demo" data-slide-to="2"></li>
+	  	</ul>
+	  	<!-- The slideshow -->
+	  	<div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img src="img\slider\5.jpg" alt="Loading image" class="slide">
+			  <div class="carousel-caption">
+			  <h1>The Best Place to Relax</h1>
+			  <p>Book a room at our resort now and get a discount of 30%. Fruit basket, soft drinks and a huge cozy bed are waiting for you. We will do everything to make you feel at home.</p>
+			  <p><a class="btn btn-lg btn-primary" href="#" role="button">Book Now</a></p>
+			</div>
+		    </div>
+		    <div class="carousel-item">
+		      <img src="img\slider\2.jpg" alt="Loading image" class="slide">
+			  <div class="carousel-caption">
+			  <h1>The Best Place to Relax</h1>
+			  <p>Book a room at our resort now and get a discount of 30%. Fruit basket, soft drinks and a huge cozy bed are waiting for you. We will do everything to make you feel at home.</p>
+			  <p><a class="btn btn-lg btn-primary" href="#" role="button">Book Now</a></p>
+			</div>
+		    </div>
+		    <div class="carousel-item">
+		      <img src="img\slider\7.jpg" alt="Loading image" class="slide">
+			  <div class="carousel-caption">
+			  <h1>The Best Place to Relax</h1>
+			  <p>Book a room at our resort now and get a discount of 30%. Fruit basket, soft drinks and a huge cozy bed are waiting for you. We will do everything to make you feel at home.</p>
+			  <p><a class="btn btn-lg btn-primary" href="#" role="button">Book Now</a></p>
+			</div>
+		    </div>
+	  	</div>
+
+  		<!-- Left and right controls -->
+  		<a class="carousel-control-prev" href="#demo" data-slide="prev">
+    		<span class="carousel-control-prev-icon"></span>
+	  	</a>
+	  	<a class="carousel-control-next" href="#demo" data-slide="next">
+		    <span class="carousel-control-next-icon"></span>
+	 	</a>
+	</div>
+
+	<main class="">
+		<div class="container-fluid">
+			<div class="container">
+				<div class="sec-header sec-header-pad text-center">
+			        <h2>Rooms And Suits</h2>
+			        <h3>Pick a room that best suits your taste and budget</h3>
+			    </div><br>
+			    <div class="row text-center">
+			    	<div class="col-sm-3 item">
+			    		<div class="ro-img"><img src="img\rooms\8.jpg" alt="" class="img-responsive"></div>
+                    	<div class="ro-txt">
+	                        <h2>Deluxe Room</h2>
+	                        <p>Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod ipsum dolor sit
+	                            amet</p>
+	                        <div class="ro-text-two">
+	                            <div class="right-p-two pull-right">
+	                                <p>$135<span>Per Night</span></p>
+	                            </div>
+	                            <div class="left-p-two pull-left">
+	                            	<a href="single-room.html" class="btn btn-info">Details</a>
+	                            </div>
+	                        </div>
+	                    </div>
+			    	</div>
+			    	
+			    	<div class="col-sm-3 item">
+			    		<div class="ro-img"><img src="img\rooms\9.jpg" alt="" class="img-responsive"></div>
+	                    <div class="ro-txt">
+	                        <h2>Economy Room</h2>
+	                        <p>Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod ipsum dolor sit
+	                            amet</p>
+	                        <div class="ro-text-two">
+	                        	<div class="right-p-two pull-right">
+	                                <p>$215<span>Per Night</span></p>
+	                            </div>
+	                            <div class="left-p-two pull-left">
+	                            	<a href="single-room.html" class="btn btn-info">Details</a>
+	                            </div>
+	                        </div>
+	                    </div>
+			    	</div>
+			    	<div class="col-sm-3 item">
+			    		<div class="ro-img"><img src="img\rooms\10.jpg" alt="" class="img-responsive"></div>
+	                    <div class="ro-txt">
+	                        <h2>Super Room</h2>
+	                        <p>Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod ipsum dolor sit
+	                            amet</p>
+	                        <div class="ro-text-two">
+	                        	<div class="right-p-two pull-right">
+	                                <p>$315<span>Per Night</span></p>
+	                            </div>
+	                            <div class="left-p-two pull-left">
+	                            	<a href="single-room.html" class="btn btn-info">Details</a>
+	                            </div>
+	                        </div>
+	                    </div>
+			    	</div>
+			    	<div class="col-sm-3 item">
+			    		<div class="ro-img"><img src="img\rooms\11.jpg" alt="" class="img-responsive"></div>
+	                    <div class="ro-txt">
+	                        <h2>Family Room</h2>
+	                        <p>Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod ipsum dolor sit
+	                            amet</p>
+	                        <div class="ro-text-two">
+	                            <div class="right-p-two pull-right">
+	                                <p>$199<span>Per Night</span></p>
+	                            </div>
+	                            <div class="left-p-two pull-left">
+	                            	<a href="single-room.html" class="btn btn-info">Details</a>
+	                            </div>
+	                        </div>
+	                    </div>
+			    	</div>
+			    </div>
+			</div><br>
+			<!-- Our Offer style -->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-5 item">
+		                <div class="sec-header3">
+		                    <h2>Our Offers</h2>
+		                    <h3>Pick a room that best suits</h3>
+		                </div>
+		                <p>Tdolor sit amet, consectetur, adipis civelit sed quia non qui dolorem ipsum quia dolor sit amet,
+		                    consectetur, adipis civelit. Red quia numquam.</p>
+		                <p>Tdolor sit amet, consectetur, adipis civelit sed quia non qui dolorem ipsum quia dolor sit amet,
+		                    consectetur, adipis civelit. Red quia numquam eius modi. Neque porro quisquam.</p>
+		            </div>
+		            <div class="col-sm-5 item">
+		            	<div class="offer-img-box1">
+		                    <div class="spa-offer">
+		                        <div class="img_holder"><a href="booking.html"><img src="img\our-hotel\1.jpg" alt="" class="img-responsive">
+		                            <div class="overlay">
+		                                <div class="room-ad-cont">
+		                                    <h2>25% <span>off</span></h2>
+		                                    <h3>Weeken Spa Offer</h3>
+		                                    <p>Enjoy a luxurious SPA weekend dedicated to helping you unwind.</p>
+		                                    <a href="booking.html" class="btn btn-primary">Read more</a>
+		                                </div>
+		                            </div>
+		                       </a></div>
+		                    </div>
+		                </div>
+	                </div>
+	                <div class="col-sm-5 item">
+		                <div class="offer-img-box2">
+		                    <div class="box1">
+		                        <div class="img_holder"><a href="booking.html"><img src="img\our-hotel\2.jpg" class="img-responsive">
+		                            <div class="overlay">
+		                                <div class="text1">* condition apply</div>
+		                                <div class="offertext1">
+		                                    <h2>15% <span class="off-txt">off</span><span class="winter-txt">In Winter<br>Season</span>
+		                                    </h2>
+		                                </div>
+		                            </div>
+		                        </a></div>
+		                    </div>
+		                </div>
+		            </div>
+		            <div class="col-sm-5 item">
+		                <div class="offer-img-box2">
+		                    <div class="box2">
+		                        <div class="img_holder"><a href="booking.html"><img src="img\our-hotel\3.jpg"  class="img-responsive">
+		                            <div class="overlay">
+		                                <h2>Honeymoon <span>Offer</span></h2>
+		                                <h2>25% <span>off</span></h2>
+		                                <h6>* condition apply</h6>
+		                            </div>
+		                        </a></div>
+		                    </div>
+		                </div>
+		            </div>	
+				</div>
+			</div><br>
+			<!-- Testimonials & Our Events style -->
+			<div class="container">
+				<div class="sec-header-two" id="event">
+	                <h2>Our Events</h2>
+	            </div>
+				<div class="row our-event-t-wrapper">
+					<div class="col-sm-4">
+						<div class="media">
+		                    <div class="media-left">
+		                        <div class="date-box">
+		                            <div class="date-inner">
+		                                <div class="date-c-inner">
+		                                    <p>25<span>June</span></p>
+		                                </div>
+		                            </div>
+		                        </div>
+		                    </div>
+		                    <div class="media-body">
+		                        <h2>Host a Family Party</h2>
+		                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspern atur aut odit aut fugit, sed quia
+		                            consequuntur magni dolores eos qui ratione voluptatem.</p>
+		                    </div>
+		                </div>
+					</div>
+					<div class="col-sm-4">
+						<div class="media">
+		                    <div class="media-left">
+		                        <div class="date-box">
+		                            <div class="date-inner">
+		                                <div class="date-c-inner">
+		                                    <p>08<span>June</span></p>
+		                                </div>
+		                            </div>
+		                        </div>
+		                    </div>
+		                    <div class="media-body">
+		                        <h2>Host a Family Party</h2>
+		                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspern atur aut odit aut fugit, sed quia
+		                            consequuntur magni dolores eos qui ratione voluptatem.</p>
+		                    </div>
+		                </div>
+					</div>
+					<div class="col-sm-4">
+						<div class="media media-last">
+		                    <div class="media-left">
+		                        <div class="date-box">
+		                            <div class="date-inner">
+		                                <div class="date-c-inner">
+		                                    <p>08<span>June</span></p>
+		                                </div>
+		                            </div>
+		                        </div>
+		                    </div>
+		                    <div class="media-body">
+		                        <h2>Host a Family Party</h2>
+		                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspern atur aut odit aut fugit, sed quia
+		                            consequuntur magni dolores eos qui ratione voluptatem.</p>
+		                    </div>
+		                </div>
+					</div>
+				</div>
+			</div><br><br>
+			<!-- Get in Touch & Drop a Message style-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 text-center">
+						<div class="get-touch-wrapper row m0">
+		                    <div class="touch-img">
+		                    	<img src="img\footer\1.jpg" alt="" class="img-responsive">
+		                    </div>
+		                    <div class="touch-txt">
+		                    	<br>
+		                        <div class="sec-header-touch">
+		                            <h2>Get in Touch</h2>
+		                        </div>
+		                        <h3>John Doe<span>(Senior Agent)</span></h3>
+		                        <p>Phone : 111-222-3333 </p>
+		                        <p>Email : info@contactjohndoe.com</p>
+		                    </div>
+		                </div>
+					</div>
+					<div class="col-sm-6">
+						<div class="sec-header-touch">
+		                    <h2>Drop a Message</h2>
+		                </div>
+		                <div class="drop-wrapper input_form">
+		                    <form id="contactForm" action="sendemail.php" method="post">
+		                        <div class="row">
+		                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		                                <input id="name" type="text" name="name" placeholder="Your name"
+		                                       class="form-control">
+		                            </div>
+		                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		                                <input id="email" type="email" name="email" placeholder="Your Email"
+		                                       class="form-control">
+		                            </div>
+		                        </div>
+		                        <div class="row">
+		                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		                                <input id="subject" type="text" name="subject" placeholder="Subject"
+		                                       class="form-control">
+		                            </div>
+		                        </div>
+		                        <div class="row">
+		                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		                                <textarea id="message" rows="6" name="message" placeholder="Message"
+		                                          class="form-control"></textarea>
+		                            </div>
+		                        </div>
+		                        <div class="row">
+		                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		                                <button type="submit" class="btn btn-success">Submit Now <i class="fa fa-angle-double-right"></i>
+		                                </button>
+		                            </div>
+		                        </div>
+		                    </form>
+		                    <div id="success">
+		                        <p>Your message sent successfully.</p>
+		                    </div>
+		                    <div id="error">
+		                        <p>Something is wrong. Message cant be sent!</p>
+		                    </div>
+		                </div>
+					</div>
+				</div>
+			</div><br><br>
+			<!-- Welcome banner  style -->
+			<div class="container">
+				<div class="row this-dashed">
+		            <div class="this-texts">
+		                <h2>STAY TUNED WITH US</h2>
+		                <h3>Get our updated offers, discounts, events and much more!</h3>
+		            </div>
+		            <form action="#" method="post" class="this-form input-group">
+		                <input type="email" placeholder="Enter your email address" class="form-control">
+		                <span class="input-group-addon">
+		              		<button type="submit" class="btn btn-success">subscribe 
+		              			<i class="fa fa-angle-double-right"></i>
+		              		</button>
+		              	</span>
+		            </form>
+		        </div>
+			</div>
+		</div><br><br>
+		<div class="container-fluid text-center" style="background-color: rgb(149, 189, 166);">
+			<div class="container">
+				<div class="row">
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container-fluid padding">
+	        <div class="row text-center">
+	            <div class="col-md-4">
+	                <img src="img\logo.png" height="50">
+
+	                <p>111-222-3333</p>
+	                <p>mymail@gmail.com</p>
+	                <p>Bach Mai street, Hanoi, Vietnam</p>
+	            </div>
+	            <div class="col-md-4">
+	                <hr class="light">
+	                <h5>Working hours</h5>
+	                <hr class="light">
+	                <p>Monday-Friday: All days</p>
+	                <p>Weekend: 6am - 12am</p>
+	            </div>
+	            <div class="col-md-4">
+	                <hr class="light">
+	                <h5>Our Branch</h5>
+	                <hr class="light">
+	                <p>123 Ho Tung Mau, Ha Noi, Viet Nam</p>
+	                <p>123 xxx street, HCM city, Viet Nam</p>
+	            </div>
+	            <div class="col-12">
+	                <hr class="light">
+	                <h5>&copy; Lake Hotel</h5>
+	            </div>
+	        </div>
+	    </div>
+	</footer>
+</body>
+</html>
