@@ -1,0 +1,180 @@
+.img{
+    height:100%;
+    width: 100%;
+}
+.icon{
+    width: 23;
+    height: 23;
+}
+.bg-light {
+    background-color: #ddffeb !important;
+}
+
+.texth3{
+    color: rgb(102, 175, 106);
+}
+.textleft{
+    text-align: right;
+}
+.textright{
+    text-align: left;
+}
+.seemore{
+    text-align: right;
+}
+.seemore1{
+    text-align: left;
+    background-color: #ffffff; 
+}
+pre.preview1 {
+    font-size: 87.5%;
+    color: #212529;
+    text-align: right;
+}
+pre.preview{
+    font-size: 87.5%;
+    color: #212529;
+    text-align: left;
+}
+.booknow{
+    text-align: right;
+}
+.btn-light{
+    background-color: #ddffeb;
+    border: #ddffeb;
+}
+.btn-light:hover {
+    color: #212529;
+    background-color: #ddffeb !important;
+    border-color: #ddffeb !important;
+}
+.btn-light:hover {
+    color: #212529;
+    background-color:#ddffeb;
+    border-color: #ddffeb;
+}
+.btn-light:not(:disabled):not(.disabled):active{
+    color: #212529;
+    background-color:#ddffeb;
+    border-color:#ddffeb;
+}
+.btn-light1:hover{
+    color: #212529;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+.btn-light1{
+    background-color: #ffffff;
+}
+.btn-light1:not(:disabled):not(.disabled):active{
+    color: #212529;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border: #ffffff;
+}
+.pagi1{
+    text-align: center;
+}
+.dropdown {
+    text-align: right;
+    background-color: none;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: #ffffff !important;
+    border: 0;
+}
+.dropdown-item a:hover {
+    color: #6be88c !important;
+}
+.dropdown-item:active {
+    color: rgb(113 113 113) !important;
+    text-decoration: none;
+    background-color: #4ad261 !important;
+}
+.dropdown-item.active{
+    background-color:#69d87c !important;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #c2ffce !important;
+}
+.img{
+    border-radius: 10%; 
+}
+/*==========Navbar=============*/
+.bg-color{
+    background: rgb(240, 240, 240);
+}
+.nav-link{
+    font-weight: bold;
+    color: rgb(32, 146, 26);
+    font-size: 20px;
+}
+.btn-group{
+    color: rgb(136, 197, 133);
+}
+.navbar-toggler i{
+    color: rgb(136, 197, 133);
+}
+
+.navbar-nav a:hover{
+    color: rgb(102, 175, 106);
+}
+/*========End of Navbar===========*/
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #7cf89b;
+    border-color: #7cf89b;
+}
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color:#00a028;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 20%;
+}
+.page-link:hover {
+    z-index: 2;
+    color: #40cc4c;
+    text-decoration: none;
+    background-color: #e9ecef;
+    border-color: #8bffa5;
+}
+.booknow{
+    text-align: right !important;
+}
+/*=========Footer================*/
+
+.bg-color{
+    background: rgb(240, 240, 240);
+}
+.nav-link{
+    font-weight: bold;
+    color: rgb(136, 197, 133);
+    font-size: 20px;
+}
+.btn-group{
+    color: rgb(136, 197, 133);
+}
+.navbar-toggler i{
+    color: rgb(136, 197, 133);
+}
+
+.navbar-nav a:hover{
+    color: rgb(102, 175, 106);
+}
+
