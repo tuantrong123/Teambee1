@@ -66,6 +66,7 @@ pre.preview{
 .btn-light1{
     background-color: #ffffff;
 }
+
 .btn-light1:not(:disabled):not(.disabled):active{
     color: #212529;
     background-color: #ffffff;

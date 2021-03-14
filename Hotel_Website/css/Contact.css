@@ -8,7 +8,12 @@
 	padding-right: 0px;
     padding-left: 0px;
 }
-#.tab-web span span a {
+a.nav-link {
+    font-weight: bold;
+    color: rgb(136, 197, 133);
+    font-size: 20px;
+}
+.tab-web span span a {
 	color: #a4db9a;
 	text-decoration: none;
 }
